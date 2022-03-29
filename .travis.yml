@@ -21,7 +21,7 @@ notifications:
 deploy:
   provider: heroku
   api_key:
-    secure: ff90c81e-47d6-4cd8-b26c-8eaf75738059
+    secure: e478af88-3b4a-4539-aa00-c9134a58ac75
   app: store-backplatzi
   skip-cleanup: true
   keep-history: true
