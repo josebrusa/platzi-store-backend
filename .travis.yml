@@ -4,7 +4,7 @@ cache:
     - node_modules
     - ~/.npm
 node_js:
-  - '14'
+  - '16'
 git:
  depth: 3
 script:
@@ -23,4 +23,3 @@ deploy:
   app: store-backplatzi
   on:
     repo: josebrusa/platzi-store-backend
-    
