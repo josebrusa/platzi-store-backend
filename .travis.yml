@@ -1,0 +1,25 @@
+lenguage: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+ depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    recipients:
+      - josebrusa@outlook.com
+    on_success: always
+    on_failure: always
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: ff90c81e-47d6-4cd8-b26c-8eaf75738059
+  app: store-backplatzi
+  on:
+    repo: josebrusa/platzi-store-backend
