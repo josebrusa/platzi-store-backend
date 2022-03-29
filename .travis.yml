@@ -9,6 +9,7 @@ git:
  depth: 3
 script:
   - yarn test
+  - gems install ruby 2.6
 notifications:
   email:
     recipients:
