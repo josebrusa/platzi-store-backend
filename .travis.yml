@@ -20,7 +20,8 @@ notifications:
     on_failure: always
 deploy:
   provider: heroku
-  api_key: ff90c81e-47d6-4cd8-b26c-8eaf75738059
+  api_key:
+    secure: ff90c81e-47d6-4cd8-b26c-8eaf75738059
   app: store-backplatzi
   skip-cleanup: true
   keep-history: true
