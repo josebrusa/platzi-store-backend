@@ -12,5 +12,13 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josebrusa/platzi-store-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josebrusa/platzi-store-backend/issues"
+  },
+  "homepage": "https://github.com/josebrusa/platzi-store-backend#readme"
 }
